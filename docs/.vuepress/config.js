@@ -3,7 +3,7 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-    base: "/", // /mynotes/ 路径
+    base: "/mynotes/", // /mynotes/ 路径
     lang: 'zh-CN', // 语言
     title: 'My Notes', // 站点标题 主标题
     description: 'My first VuePress Site', // 描述
